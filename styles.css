@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    -webkit-app-region: drag;
+    height: 95vh;
+}
+
+header {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.icons {
+    padding: 4px;
+    float: right;
+    height: 3vh;
+
+    -webkit-app-region: no-drag;
+}
+
+.icons i {
+    padding-top: 50%;
+    padding-right: 3px;
+}
+
+.icons:hover {
+    cursor: pointer !important;
+}
+
+#pin {
+    opacity: 50%;
+}
+
+.active {
+    opacity: 100% !important;
+}
+
+.note {
+    background-color: #201e1eb7;
+    width: 100%;
+    z-index: 999;
+    -webkit-app-region: no-drag;
+    border-radius: 5px;
+}
+
+.note p {
+    padding-top: 9px;
+    padding-left: 3px;
+    padding-bottom: 9px;
+    margin: 5px;
+    color: #fefefe;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+ }
+
+#new-note {
+    -webkit-app-region: no-drag;
+    border-radius: 5px;
+    background-color: #201e1eb7;
+    color: #fefefe;
+    width: 90vw;
+    height: 12vh;
+}
