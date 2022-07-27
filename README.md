@@ -2,7 +2,7 @@
 NoteText is simple desktop app that allows you to save all your thoughts!
 
 ## Showcase
-![image](assets\preview.png)
+![image](assets/preview.png)
 
 ### Setup
 Clone repository using `git clone https://github.com/Style77/NoteText`
